@@ -4,7 +4,6 @@
 	<description>Teddy Tom Lernbilder - Auto</description>
 	<author>punkt um FILM GmbH</author>
 
-	<icon src="www/icon-256.png" width="256" height="256" density="xxxhdpi" />
 	<icon src="www/icon-128.png" width="128" height="128" density="xhdpi" />
 
 	<preference name="android-targetSdkVersion" value="26" />
