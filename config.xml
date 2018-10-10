@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8" ?>
-<widget id="de.teddytom.lernbilderauto" version="2.0.3" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="de.teddytom.lernbilderauto" version="2.0.4" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
 	<name>Car-amba!</name>
-	<description>Teddy Tom Lernbilder - Auto</description>
-	<author>punkt um FILM GmbH</author>
+	<description>A game for children learning the interior of a car</description>
+	<author href="teddytom.de" email="info@punkt-um-film.de">punkt um FILM GmbH</author>
 
 	<icon src="www/icon-128.png" width="128" height="128" density="xhdpi" />
 
@@ -17,14 +17,16 @@
 	<config-file parent="UIViewControllerBasedStatusBarAppearance" platform="ios" target="*-Info.plist"><false/></config-file>
 
 
-	<preference name="deployment-target" value="8.0" />
-	<preference name="android-minSdkVersion" value="23" />
+	<preference name="deployment-target" value="10.0" />
+	<preference name="android-minSdkVersion" value="26" />
 	<access origin="*" />
 
 	<plugin name="cordova-custom-config" />
+	<plugin name="cordova-plugin-file" />
 	<plugin name="cordova-plugin-inappbrowser" />
 	<plugin name="cordova-plugin-statusbar" />
 	<plugin name="cordova-plugin-whitelist" />
+	<plugin name="cordova-plugin-wkwebview-engine" />
 
 
 	<engine name="ios" />

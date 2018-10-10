@@ -1,11 +1,11 @@
 ﻿{
 	"id": "de.teddytom.lernbilderauto",
-	"version": "2.0.3",
+	"version": "2.0.4",
 	"name": "Car-amba!",
-	"description": "Teddy Tom Lernbilder - Auto",
+	"description": "A game for children learning the interior of a car",
 	"author": "punkt um FILM GmbH",
-	"email": "",
-	"website": "",
+	"email": "info@punkt-um-film.de",
+	"website": "teddytom.de",
 	"fullscreen": "true",
 	"useragent": null,
 	"orientation": "landscape",
@@ -22,17 +22,19 @@
 	}],
 	"plugins": [
 		{ "id": "cordova-custom-config", "version": null },
+		{ "id": "cordova-plugin-file", "version": null },
 		{ "id": "cordova-plugin-inappbrowser", "version": null },
 		{ "id": "cordova-plugin-statusbar", "version": null },
-		{ "id": "cordova-plugin-whitelist", "version": null }
+		{ "id": "cordova-plugin-whitelist", "version": null },
+		{ "id": "cordova-plugin-wkwebview-engine", "version": null }
 	],
 	"android": {
-		"min": 23,
+		"min": 26,
 		"target": 26,
 		"plugins": []
 	},
 	"ios": {
-		"target": "8.0",
+		"target": "10.0",
 		"plugins": []
 	}
 }
